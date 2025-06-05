@@ -33,3 +33,6 @@ npm i -D @types/supertest
 
 BUILD 
 npm i tsup -D
+
+BANCO PARA DEPLOY
+npm i pg
