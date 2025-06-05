@@ -1,6 +1,16 @@
 import { app } from './app'
 import { env } from './env'
 
-app.listen({ port: env.PORT }).then(() => {
-  console.log('Server is running on port 333333')
-})
+async function bootstrap() {
+  try {
+    await app.listen({
+      port: env.PORT,
+      host: '0.0.0.0',
+    })
+    console.log(`HTTP Server running on ${env.PORT}`)
+  } catch (error) {
+    console.error('Error starting the server:', error)
+  }
+}
+
+bootstrap()
