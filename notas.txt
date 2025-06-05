@@ -30,3 +30,6 @@ TESTES
 npm i vitest -D
 npm i supertest -D
 npm i -D @types/supertest  
+
+BUILD 
+npm i tsup -D
