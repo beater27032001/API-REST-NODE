@@ -202,7 +202,7 @@ ISC
 
 ## 👨‍💻 Autor
 
-[Seu Nome]
+José Carlos Paiva
 
 ---
 
